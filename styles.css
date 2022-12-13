@@ -4,7 +4,10 @@
     padding: 0px;
     margin: 0px;
 }
-
+a{
+    color: black;
+    text-decoration: none;
+}
 html,
 body {
     margin: 0px;
@@ -50,8 +53,8 @@ main {
     height: 15%;
 }
 .dp_container {
-    width: 35%;
-    height: 15%;
+    width: 40%;
+    height: 20%;
     margin: 0px 0px 0px 55%;
     display: flex;
     justify-content: center;
@@ -75,6 +78,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin-top: 4rem;
 }
 .container3 {
     width: 100%;
@@ -95,11 +99,21 @@ main {
  {
     background-color: rgba(92, 37, 157, 0.2);
     color: black;
+    font-weight: bold;
 }
 label, .list_item:hover, button:hover
 {
     cursor: pointer;
 }
+
+.activeBtn {
+  background-color: rgb(106, 190, 223) !important;
+  transition: var(--transition);
+  color: white;
+  font-weight: bold;
+}
+
+
 .list_item {
     width: 100%;
     padding-top: 30%;
